@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    //  1. NAVBAR SCROLL EFFECT 
     const navbar = document.getElementById('navbar');
 
     const handleNavbarScroll = () => {
@@ -14,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', handleNavbarScroll, { passive: true });
     handleNavbarScroll();
 
-    //  2. HAMBURGER / DRAWER 
     const hamburger = document.getElementById('hamburger');
     const navDrawer = document.getElementById('navDrawer');
     const drawerOverlay = document.getElementById('drawerOverlay');
@@ -43,12 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
     drawerOverlay?.addEventListener('click', closeDrawer);
     drawerClose?.addEventListener('click', closeDrawer);
 
-    // Close drawer on nav link click
     document.querySelectorAll('.drawer-nav-link').forEach(link => {
         link.addEventListener('click', closeDrawer);
     });
 
-    //  3. SMOOTH SCROLL FOR ANCHOR LINKS 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', (e) => {
             const id = anchor.getAttribute('href');
@@ -62,7 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    //  4. FAQ ACCORDION 
     document.querySelectorAll('.faq-item').forEach(item => {
         const trigger = item.querySelector('.faq-trigger');
         const body = item.querySelector('.faq-body');
@@ -70,14 +65,12 @@ document.addEventListener('DOMContentLoaded', () => {
         trigger?.addEventListener('click', () => {
             const isOpen = item.classList.contains('open');
 
-            // Close all others
             document.querySelectorAll('.faq-item.open').forEach(other => {
                 other.classList.remove('open');
                 other.querySelector('.faq-body')?.classList.remove('open');
                 other.querySelector('.faq-trigger')?.setAttribute('aria-expanded', 'false');
             });
 
-            // Toggle current
             if (!isOpen) {
                 item.classList.add('open');
                 body?.classList.add('open');
@@ -86,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    //  5. PRICING TOGGLE 
     const toggleBtns = document.querySelectorAll('.toggle-btn');
     const monthPrices = document.querySelectorAll('.price-monthly');
     const yearPrices = document.querySelectorAll('.price-yearly');
@@ -102,7 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    //  6. INTERSECTION OBSERVER (fade-in) 
     const fadeEls = document.querySelectorAll('.fade-in');
 
     const fadeObserver = new IntersectionObserver((entries) => {
@@ -116,7 +107,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fadeEls.forEach(el => fadeObserver.observe(el));
 
-    //  7. COUNTER ANIMATION 
     const counters = document.querySelectorAll('.metric-number[data-target]');
 
     const countObserver = new IntersectionObserver((entries) => {
@@ -147,7 +137,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     counters.forEach(el => countObserver.observe(el));
 
-    //  8. SCROLL TO TOP 
     const scrollTopBtn = document.getElementById('scrollTop');
 
     window.addEventListener('scroll', () => {
@@ -162,7 +151,6 @@ document.addEventListener('DOMContentLoaded', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
-    //  9. NAVBAR ACTIVE LINK 
     const sections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('.navbar-links a');
 
@@ -178,9 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { threshold: 0.4 });
 
     sections.forEach(s => activeObserver.observe(s));
-    //  11. LANGUAGE TOGGLE 
 
-    // Dictionary for data-i18n attribute elements (navbar + new sections)
     const I18N = {
         es: {
             'nav.home': 'Inicio',
@@ -236,7 +222,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // CSS selector-based translations for existing page elements
     const PAGE_T = {
         es: {
             text: {
@@ -313,12 +298,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const applyLanguage = (lang) => {
         currentLang = lang;
 
-        // Update all language buttons (desktop + mobile drawer)
         document.querySelectorAll('.lang-select').forEach(btn => {
             btn.innerHTML = `🌐 ${lang.toUpperCase()} ▾`;
         });
 
-        // 1. Apply CSS-selector based translations (existing content)
         const { text: textMap, html: htmlMap } = PAGE_T[lang];
         Object.entries(textMap).forEach(([sel, val]) => {
             document.querySelectorAll(sel).forEach(el => { el.textContent = val; });
@@ -327,7 +310,6 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll(sel).forEach(el => { el.innerHTML = val; });
         });
 
-        // 2. Apply data-i18n attribute translations (new sections + navbar)
         const dict = I18N[lang];
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const key = el.dataset.i18n;
@@ -341,14 +323,12 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('tm-lang', lang);
     };
 
-    // Attach click handlers to all lang buttons
     document.querySelectorAll('.lang-select').forEach(btn => {
         btn.addEventListener('click', () => {
             applyLanguage(currentLang === 'es' ? 'en' : 'es');
         });
     });
 
-    // Initialize: apply stored language preference
     if (currentLang !== 'es') applyLanguage(currentLang);
 
 });
