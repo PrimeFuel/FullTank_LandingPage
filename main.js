@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'nav.testimonials': 'Testimonios',
             'nav.about':        'Sobre nosotros',
             'nav.contact':      'Contacto',
-            'nav.cta':          'Comenzar gratis',
+            'nav.cta':          'Comenzar ahora',
 
             // Hero
             'hero.badge': '&#9201; Gesti\u00f3n de combustible en tiempo real',
@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'pricing.starter.li4':    'Notificaciones por email',
             'pricing.starter.li5':    'Historial \u00faltimos 3 meses',
             'pricing.starter.li6':    'Soporte por chat (48h)',
-            'pricing.starter.cta':    'Comenzar gratis',
+            'pricing.starter.cta':    'Comenzar ahora',
             'pricing.pro.badge':   '\u2605 M\u00e1s Popular',
             'pricing.pro.desc':    'Para operaciones activas',
             'pricing.pro.period':  '/ mes por empresa',
