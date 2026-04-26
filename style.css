@@ -2769,3 +2769,34 @@ p {
     line-height: 1.65;
     flex: 1;
 }
+
+.team-video-section {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.team-video-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
