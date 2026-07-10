@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'hero.check1':   'Sin tarjeta de cr\u00e9dito requerida',
             'hero.check2':   'Configuraci\u00f3n en menos de 10 minutos',
             'hero.check3':   'Soporte multiidioma incluido',
-            'hero.cta':      'Solicitar demo gratuita',
+            'hero.cta':      'Solicitar una demo',
             'hero.play':     'Ver c\u00f3mo funciona',
 
             // Mockup
@@ -214,6 +214,12 @@ document.addEventListener('DOMContentLoaded', () => {
             'mockup.status2':  'Tr\u00e1nsito',
             'mockup.status3':  'Pendiente',
             'mockup.chart':    'Consumo mensual (galones)',
+            'mockup.month1':   'Nov',
+            'mockup.month2':   'Dic',
+            'mockup.month3':   'Ene',
+            'mockup.month4':   'Feb',
+            'mockup.month5':   'Mar',
+            'mockup.month6':   'Abr',
 
             // Social proof
             'social.label': 'Empresas que ya conf\u00edan en FullTank',
@@ -247,6 +253,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Features
             'features.label':    'Caracter\u00edsticas',
+            'features.title':    'Todo lo que necesitas para gestionar<br>combustible B2B sin fricciones',
             'features.subtitle': 'Dise\u00f1ado espec\u00edficamente para solicitantes y proveedores de combustible industrial.',
             'features.f1.title': 'Trazabilidad en tiempo real',
             'features.f1.text':  'Monitorea cada pedido en tiempo real. Sabe exactamente en qu\u00e9 estado est\u00e1 tu combustible, desde la aprobaci\u00f3n hasta la entrega en obra.',
@@ -295,28 +302,28 @@ document.addEventListener('DOMContentLoaded', () => {
             // About
             'about.label':        'Nuestra Startup',
             'about.title':        '\u00bfQui\u00e9nes somos?',
-            'about.badge':        '\u00ab Startup UPC \u00b7 Lima, Per\u00fa',
-            'about.description':  'Prime Fuel es un startup innovador dedicado a la gesti\u00f3n de la compraventa de combustible entre empresas solicitantes y proveedores. Fundada por estudiantes de la Universidad Peruana de Ciencias Aplicadas, nuestra propuesta se centra en la digitalizaci\u00f3n de un sector tradicionalmente dependiente de procesos manuales, brindando una soluci\u00f3n tecnol\u00f3gica que garantiza eficiencia, transparencia y un control m\u00e1s riguroso de las operaciones.',
+            'about.badge':        '\u00ab Startup PrimeFuel \u00b7 Lima, Per\u00fa',
+            'about.description':  'Prime Fuel es un startup innovador dedicado a la gesti\u00f3n de la compraventa de combustible entre empresas solicitantes y proveedores. Somos el equipo de PrimeFuel, y nuestra propuesta se centra en la digitalizaci\u00f3n de un sector tradicionalmente dependiente de procesos manuales, brindando una soluci\u00f3n tecnol\u00f3gica que garantiza eficiencia, transparencia y un control m\u00e1s riguroso de las operaciones.',
             'about.mission.title':'Misi\u00f3n',
             'about.mission.text': 'Desarrollar soluciones tecnol\u00f3gicas avanzadas que transformen el mercado de combustible, eliminando los medios informales y reduciendo el margen de error, mediante una plataforma web intuitiva y accesible.',
             'about.vision.title': 'Visi\u00f3n',
             'about.vision.text':  'Posicionarnos como l\u00edderes en la digitalizaci\u00f3n del sector energ\u00e9tico, ofreciendo a las empresas una herramienta que facilite una gesti\u00f3n m\u00e1s eficiente, segura y sostenible, contribuyendo al progreso tecnol\u00f3gico y a la mejora de la competitividad del sector.',
-            'about.stat1':        'Estudiantes fundadores de la UPC',
+            'about.stat1':        'Miembros fundadores de PrimeFuel',
             'about.stat2':        'Empresas en lista de espera',
             'about.stat3':        'Plataforma para todo el flujo de combustible',
-            'about.upc':          '\u00bb Universidad Peruana de Ciencias Aplicadas',
+            'about.upc':          '\u00bb Equipo PrimeFuel',
 
             // Team
             'team.video':    'Video sobre el equipo',
             'team.label':    'El Equipo',
             'team.title':    'Conoce a quienes hacen posible FullTank',
-            'team.subtitle': 'Somos 5 estudiantes de Ingenier\u00eda de Software de la UPC comprometidos con digitalizar el sector energ\u00e9tico.',
+            'team.subtitle': 'Somos 5 profesionales de Ingenier\u00eda de Software, parte del equipo de PrimeFuel, comprometidos con digitalizar el sector energ\u00e9tico.',
             'team.career':   'Ing. de Software',
-            'team.m1.desc':  'Estudiante con pasi\u00f3n por la ciberseguridad e IA. Su fortaleza es liderar equipos eficazmente. Perseverante y dedicado, siempre listo para entregar proyectos exitosos.',
+            'team.m1.desc':  'Profesional con pasi\u00f3n por la ciberseguridad e IA. Su fortaleza es liderar equipos eficazmente. Perseverante y dedicado, siempre listo para entregar proyectos exitosos.',
             'team.m2.desc':  'Colaborativo y adaptable. Disfruta aportar ideas y tiene s\u00f3lida base en C++ y Python, siempre buscando soluciones eficientes y simples.',
-            'team.m3.desc':  'Estudiante curiosa con experiencia en gesti\u00f3n de proyectos y metodolog\u00edas \u00e1giles. Enfocada en desarrollo web y an\u00e1lisis de datos.',
+            'team.m3.desc':  'Profesional curiosa con experiencia en gesti\u00f3n de proyectos y metodolog\u00edas \u00e1giles. Enfocada en desarrollo web y an\u00e1lisis de datos.',
             'team.m4.desc':  'Enfocado en el desarrollo de soluciones tecnol\u00f3gicas innovadoras. Conocimientos en Python y C++, comprometido con la calidad del software.',
-            'team.m5.desc':  'Estudiante de Ingenier\u00eda de Software en la UPC, con habilidades en desarrollo y dise\u00f1o de sistemas. Comprometido con la innovaci\u00f3n continua.',
+            'team.m5.desc':  'Ingeniero de Software, parte del equipo de PrimeFuel, con habilidades en desarrollo y dise\u00f1o de sistemas. Comprometido con la innovaci\u00f3n continua.',
 
             // Testimonials
             'testimonials.label':  'Testimonios',
@@ -334,12 +341,12 @@ document.addEventListener('DOMContentLoaded', () => {
             // Pricing
             'pricing.label':       'Precios',
             'pricing.title':       'Planes que crecen contigo',
-            'pricing.subtitle':    'Comienza gratis. Escala cuando tu operaci\u00f3n lo exija.',
+            'pricing.subtitle':    'Comienza ahora. Escala cuando tu operaci\u00f3n lo exija.',
             'pricing.monthly':     'Mensual',
             'pricing.yearly':      'Anual \u2014 ahorra 20%',
             'pricing.note':        '\u00a7 Todos los planes incluyen SSL, backups diarios y soporte en espa\u00f1ol.',
             'pricing.starter.desc':   'Para comenzar',
-            'pricing.starter.period': '/ mes \u00b7 gratis siempre',
+            'pricing.starter.period': '/ mes',
             'pricing.starter.li1':    'Hasta 20 pedidos/mes',
             'pricing.starter.li2':    '1 usuario administrador',
             'pricing.starter.li3':    'Dashboard b\u00e1sico de pedidos',
@@ -358,7 +365,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'pricing.pro.li6':     'Reportes y exportaci\u00f3n PDF',
             'pricing.pro.li7':     'Historial completo',
             'pricing.pro.li8':     'Soporte prioritario (4h)',
-            'pricing.pro.cta':     'Empezar prueba 14 d\u00edas gratis',
+            'pricing.pro.cta':     'Empezar con el plan Pro',
             'pricing.ent.desc':    'Para grandes operaciones',
             'pricing.ent.price':   'A consultar',
             'pricing.ent.period':  'Precio personalizado',
@@ -390,7 +397,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // CTA
             'cta.title':    '\u00bfListo para decirle adi\u00f3s<br>al caos del combustible?',
             'cta.subtitle': '\u00danete a m\u00e1s de 200 empresas que ya gestionan sus pedidos de combustible con FullTank. Sin contratos. Sin complicaciones.',
-            'cta.btn':      'Empezar gratis ahora \u2192',
+            'cta.btn':      'Empezar ahora \u2192',
             'cta.micro1':   'Sin tarjeta de cr\u00e9dito',
             'cta.micro2':   'Cancela en cualquier momento',
             'cta.micro3':   'Soporte en espa\u00f1ol',
@@ -401,8 +408,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'footer.col1.li1':  'C\u00f3mo funciona',
             'footer.col1.li2':  'Beneficios',
             'footer.col1.li3':  'Planes y precios',
-            'footer.col1.li4':  'Demo gratuita',
-            'footer.col1.soon': 'Pronto',
+            'footer.col1.li4':  'Solicitar demo',
             'footer.col2.title':'Empresa',
             'footer.col2.li1':  'Sobre PrimeFuel',
             'footer.col2.li2':  'Equipo',
@@ -417,6 +423,21 @@ document.addEventListener('DOMContentLoaded', () => {
             'footer.col3.li5':  'Seguridad',
             'footer.copy':      '\u00a9 2026 PrimeFuel. Todos los derechos reservados.',
             'footer.made':      'Hecho en Lima, Per\u00fa',
+
+            // Contact form
+            'form.label':    'Contacto',
+            'form.title':    'Escr\u00edbenos',
+            'form.subtitle': '\u00bfTienes dudas o quieres m\u00e1s informaci\u00f3n? Completa el formulario y nuestro equipo se pondr\u00e1 en contacto contigo.',
+            'form.name':     'Nombre',
+            'form.name.placeholder':    'Tu nombre completo',
+            'form.email':    'Correo',
+            'form.email.placeholder':   'tucorreo@empresa.com',
+            'form.subject':  'T\u00edtulo',
+            'form.subject.placeholder': 'Asunto de tu mensaje',
+            'form.message':  'Mensaje',
+            'form.message.placeholder': 'Cu\u00e9ntanos en qu\u00e9 podemos ayudarte',
+            'form.submit':   'Enviar mensaje',
+            'form.note':     '\u00a1Gracias! Hemos recibido tu mensaje.',
         },
 
         en: {
@@ -452,6 +473,12 @@ document.addEventListener('DOMContentLoaded', () => {
             'mockup.status2':  'In transit',
             'mockup.status3':  'Pending',
             'mockup.chart':    'Monthly consumption (gallons)',
+            'mockup.month1':   'Nov',
+            'mockup.month2':   'Dec',
+            'mockup.month3':   'Jan',
+            'mockup.month4':   'Feb',
+            'mockup.month5':   'Mar',
+            'mockup.month6':   'Apr',
 
             // Social proof
             'social.label': 'Companies that already trust FullTank',
@@ -485,6 +512,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Features
             'features.label':    'Features',
+            'features.title':    'Everything you need to manage<br>B2B fuel without friction',
             'features.subtitle': 'Designed specifically for industrial fuel requesters and suppliers.',
             'features.f1.title': 'Real-time traceability',
             'features.f1.text':  'Monitor every order in real time. Know exactly what state your fuel is in, from approval to on-site delivery.',
@@ -533,28 +561,28 @@ document.addEventListener('DOMContentLoaded', () => {
             // About
             'about.label':        'Our Startup',
             'about.title':        'Who are we?',
-            'about.badge':        '\u00ab UPC Startup \u00b7 Lima, Peru',
-            'about.description':  'Prime Fuel is an innovative startup dedicated to managing the buying and selling of fuel between requesting companies and suppliers. Founded by students at the Peruvian University of Applied Sciences (UPC), our proposal focuses on digitalizing a sector traditionally dependent on manual processes, providing a technological solution that ensures efficiency, transparency, and more rigorous operational control.',
+            'about.badge':        '\u00ab PrimeFuel Startup \u00b7 Lima, Peru',
+            'about.description':  'Prime Fuel is an innovative startup dedicated to managing the buying and selling of fuel between requesting companies and suppliers. We are the PrimeFuel team, and our proposal focuses on digitalizing a sector traditionally dependent on manual processes, providing a technological solution that ensures efficiency, transparency, and more rigorous operational control.',
             'about.mission.title':'Mission',
             'about.mission.text': 'To develop advanced technological solutions that transform the fuel market by eliminating informal channels and reducing the margin of error through an intuitive and accessible web platform.',
             'about.vision.title': 'Vision',
             'about.vision.text':  'To position ourselves as leaders in the digitalization of the energy sector, offering companies a tool that enables more efficient, secure, and sustainable management, contributing to technological progress and improving sector competitiveness.',
-            'about.stat1':        'UPC founding students',
+            'about.stat1':        'Founding members of PrimeFuel',
             'about.stat2':        'Companies on the waiting list',
             'about.stat3':        'Platform for the complete fuel flow',
-            'about.upc':          '\u00bb Peruvian University of Applied Sciences',
+            'about.upc':          '\u00bb PrimeFuel Team',
 
             // Team
             'team.video':    'Video about the team',
             'team.label':    'The Team',
             'team.title':    'Meet the people behind FullTank',
-            'team.subtitle': 'We are 5 Software Engineering students from UPC committed to digitalizing the energy sector.',
+            'team.subtitle': 'We are 5 Software Engineers, part of the PrimeFuel team, committed to digitalizing the energy sector.',
             'team.career':   'Software Engineering',
-            'team.m1.desc':  'Student passionate about cybersecurity and AI. Their strength is leading teams effectively. Persevering and dedicated, always ready to deliver successful projects.',
+            'team.m1.desc':  'Professional passionate about cybersecurity and AI. Their strength is leading teams effectively. Persevering and dedicated, always ready to deliver successful projects.',
             'team.m2.desc':  'Collaborative and adaptable. Enjoys contributing ideas and has a solid foundation in C++ and Python, always seeking efficient and simple solutions.',
-            'team.m3.desc':  'Curious student with experience in project management and agile methodologies. Focused on web development and data analysis.',
+            'team.m3.desc':  'Curious professional with experience in project management and agile methodologies. Focused on web development and data analysis.',
             'team.m4.desc':  'Focused on developing innovative technological solutions. Knowledge in Python and C++, committed to software quality.',
-            'team.m5.desc':  'Software Engineering student at UPC, with skills in development and system design. Committed to continuous innovation.',
+            'team.m5.desc':  'Software Engineer, part of the PrimeFuel team, with skills in development and system design. Committed to continuous innovation.',
 
             // Testimonials
             'testimonials.label':  'Testimonials',
@@ -577,7 +605,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'pricing.yearly':      'Yearly \u2014 save 20%',
             'pricing.note':        '\u00a7 All plans include SSL, daily backups, and Spanish support.',
             'pricing.starter.desc':   'To get started',
-            'pricing.starter.period': '/ month \u00b7 always free',
+            'pricing.starter.period': '/ month',
             'pricing.starter.li1':    'Up to 20 orders/month',
             'pricing.starter.li2':    '1 admin user',
             'pricing.starter.li3':    'Basic order dashboard',
@@ -596,7 +624,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'pricing.pro.li6':     'Reports and PDF export',
             'pricing.pro.li7':     'Full history',
             'pricing.pro.li8':     'Priority support (4h)',
-            'pricing.pro.cta':     'Start 14-day free trial',
+            'pricing.pro.cta':     'Get started with Pro',
             'pricing.ent.desc':    'For large operations',
             'pricing.ent.price':   'Custom quote',
             'pricing.ent.period':  'Custom pricing',
@@ -639,8 +667,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'footer.col1.li1':  'How it works',
             'footer.col1.li2':  'Benefits',
             'footer.col1.li3':  'Plans and pricing',
-            'footer.col1.li4':  'demo',
-            'footer.col1.soon': 'Soon',
+            'footer.col1.li4':  'Request a demo',
             'footer.col2.title':'Company',
             'footer.col2.li1':  'About PrimeFuel',
             'footer.col2.li2':  'Team',
@@ -655,6 +682,21 @@ document.addEventListener('DOMContentLoaded', () => {
             'footer.col3.li5':  'Security',
             'footer.copy':      '\u00a9 2026 PrimeFuel. All rights reserved.',
             'footer.made':      'Made in Lima, Peru',
+
+            // Contact form
+            'form.label':    'Contact',
+            'form.title':    'Get in touch',
+            'form.subtitle': 'Have questions or want more information? Fill out the form and our team will get back to you.',
+            'form.name':     'Name',
+            'form.name.placeholder':    'Your full name',
+            'form.email':    'Email',
+            'form.email.placeholder':   'you@company.com',
+            'form.subject':  'Subject',
+            'form.subject.placeholder': 'Subject of your message',
+            'form.message':  'Message',
+            'form.message.placeholder': 'Tell us how we can help',
+            'form.submit':   'Send message',
+            'form.note':     'Thanks! We have received your message.',
         }
     };
 
@@ -694,6 +736,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
+        // Apply data-i18n-placeholder (placeholder attribute) translations
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+            const key = el.dataset.i18nPlaceholder;
+            if (dict[key] !== undefined) {
+                el.setAttribute('placeholder', dict[key]);
+            }
+        });
+
         // Update html lang attribute
         document.documentElement.lang = lang;
 
@@ -711,5 +761,17 @@ document.addEventListener('DOMContentLoaded', () => {
     if (currentLang !== 'es') {
         applyLanguage(currentLang);
     }
+
+    // CONTACT FORM (static — no backend, just confirms receipt client-side)
+    const contactForm = document.getElementById('contactForm');
+    const formNote = document.getElementById('form-note');
+
+    contactForm?.addEventListener('submit', (e) => {
+        e.preventDefault();
+        contactForm.reset();
+        if (formNote) {
+            formNote.hidden = false;
+        }
+    });
 
 });

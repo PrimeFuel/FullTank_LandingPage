@@ -2270,6 +2270,83 @@ p {
 }
 
 /* 
+   FORMULARIO DE CONTACTO
+    */
+.contact-form-section {
+    background: var(--bg-white);
+}
+
+.contact-form {
+    max-width: 640px;
+    margin: 0 auto;
+    background: var(--bg-white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-card);
+    padding: 40px;
+}
+
+.contact-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-field {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-field label {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+    color: var(--text-primary);
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 12px 14px;
+    font-size: var(--fs-base);
+    color: var(--text-primary);
+    background: var(--bg-white);
+    transition: border-color var(--transition-fast);
+    resize: vertical;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+    outline: none;
+    border-color: var(--color-primary-light);
+}
+
+.contact-form .btn {
+    width: 100%;
+    margin-top: 4px;
+}
+
+.contact-form-note {
+    margin-top: 16px;
+    text-align: center;
+    color: var(--color-success-text);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+}
+
+@media (max-width: 640px) {
+    .contact-form {
+        padding: 28px 20px;
+    }
+    .contact-form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 
    CTA FINAL
     */
 .cta-final {
